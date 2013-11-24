@@ -30,11 +30,13 @@ out_interface=$2
 
 WIFI_HOME=~/.360wifi
 
+export LANG='eu_US'
+
 
 #[1] Check whether we have 360 wifi inserted
 
 echo "[*] Checking 360-wifi ... "
-result=$(lsusb | grep -e "148f:5370 Ralink Technology")
+result=$(lsusb | grep -e "Ralink Technology")
 
 if [ $? -ne 0 ]; then
     echo "[x] Please insert 360-wifi into the USB interface"
