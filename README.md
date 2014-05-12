@@ -1,7 +1,7 @@
 360-wifi-linux
 ==============
 
-Setting 360 Mobile WIFI (http://wifi.360.cn/) on Linux
+Setting up [360 Mobile WIFI] (http://wifi.360.cn/) on Linux
 
 (1) It has been tested on ubuntu 12.04 (kernel version < 3.4.0).
 
@@ -12,3 +12,7 @@ Setting 360 Mobile WIFI (http://wifi.360.cn/) on Linux
     b. Insert 360 Mobile WIFI into the slot
 
     c. Run the script
+
+(3) This script does *not* work for the second version of the 360 wifi
+
+
