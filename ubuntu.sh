@@ -86,6 +86,7 @@ case ${ip_prefix} in
         ;;
     "")
         echo '!are you sure you have connected to internet'
+        exit
         ;;
     *)
         ip_prefix="10.0"
